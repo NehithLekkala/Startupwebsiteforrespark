@@ -74,14 +74,16 @@ export function Logo({ size = "md", showText = true }: LogoProps) {
             strokeWidth="1.5"
           />
           
-          {/* Dollar sign (Money) - top right */}
+          {/* Rupee sign (Money) - top right */}
           <g transform="translate(68, 25)">
+            {/* Rupee symbol ₹ */}
             <path
-              d="M 0 0 L 0 16 M 0 2 Q 3 0 5 2 Q 7 4 5 6 L 0 8 Q -3 10 -1 12 Q 1 14 4 14 M 0 0 Q 3 0 5 2 M 0 8 Q -3 10 -1 12"
+              d="M -2 2 L 5 2 M -2 5 L 5 5 M 2 2 L 2 5 Q 2 8 4 10 L 6 14"
               fill="none"
               stroke="#dcfce7"
               strokeWidth="2"
               strokeLinecap="round"
+              strokeLinejoin="round"
             />
           </g>
           

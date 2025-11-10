@@ -1,4 +1,4 @@
-import { ShoppingCart, DollarSign, Wrench, Recycle } from "lucide-react";
+import { ShoppingCart, IndianRupee, Wrench, Recycle } from "lucide-react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "./ui/card";
 import { motion } from "motion/react";
 
@@ -34,7 +34,7 @@ const features = [
     featured: false
   },
   {
-    icon: DollarSign,
+    icon: IndianRupee,
     title: "Sell Your Devices",
     description: "Get instant quotes for your old devices and turn unused gadgets into cash quickly.",
     color: "text-emerald-600",

@@ -7,52 +7,52 @@ import { motion } from "motion/react";
 
 const products = [
   {
-    name: "iPhone 12 Pro",
+    name: "Redmi Note 10 Pro",
     condition: "Excellent",
-    price: "$549",
-    originalPrice: "$999",
-    rating: 4.8,
-    image: "https://images.unsplash.com/photo-1757847505222-cfe856c93be0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzbWFydHBob25lJTIwZ2FkZ2V0cyUyMHRlY2hub2xvZ3l8ZW58MXx8fHwxNzYwNzkzMzUxfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+    price: "₹8,999",
+    originalPrice: "₹15,999",
+    rating: 4.5,
+    image: "https://images.unsplash.com/photo-1760531953684-769354b5ebb4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxidWRnZXQlMjBzbWFydHBob25lJTIwYW5kcm9pZHxlbnwxfHx8fDE3NjI3NzMzNjh8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
   },
   {
-    name: "MacBook Air M1",
+    name: "boAt Airdopes 131",
     condition: "Like New",
-    price: "$749",
-    originalPrice: "$1,199",
-    rating: 4.9,
-    image: "https://images.unsplash.com/photo-1643900074574-8295e3f0af5e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsYXB0b3AlMjBjb21wdXRlciUyMGRldmljZXxlbnwxfHx8fDE3NjA3MDY2MDV8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+    price: "₹999",
+    originalPrice: "₹2,490",
+    rating: 4.3,
+    image: "https://images.unsplash.com/photo-1627989580309-bfaf3e58af6f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3aXJlbGVzcyUyMGVhcmJ1ZHN8ZW58MXx8fHwxNzYyNzczMDA1fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
   },
   {
-    name: "Sony WH-1000XM4",
+    name: "Mi Smart Band 5",
     condition: "Very Good",
-    price: "$199",
-    originalPrice: "$349",
-    rating: 4.7,
-    image: "https://images.unsplash.com/photo-1629555258982-b920af8da52d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoZWFkcGhvbmVzJTIwYXVkaW8lMjBlcXVpcG1lbnR8ZW58MXx8fHwxNzYwNzkzMzUxfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
-  },
-  {
-    name: "iPad Pro 11-inch",
-    condition: "Excellent",
-    price: "$599",
-    originalPrice: "$899",
-    rating: 4.8,
-    image: "https://images.unsplash.com/photo-1649150849645-92fba77775a0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0YWJsZXQlMjBkZXZpY2UlMjBzY3JlZW58ZW58MXx8fHwxNzYwNzE1NzIyfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
-  },
-  {
-    name: "Canon EOS R6",
-    condition: "Like New",
-    price: "$1,899",
-    originalPrice: "$2,499",
-    rating: 4.9,
-    image: "https://images.unsplash.com/photo-1729857001644-ade54ca81f53?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjYW1lcmElMjBwaG90b2dyYXBoeSUyMGVxdWlwbWVudHxlbnwxfHx8fDE3NjA3MTU3MjN8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
-  },
-  {
-    name: "Samsung Galaxy S21",
-    condition: "Very Good",
-    price: "$449",
-    originalPrice: "$799",
+    price: "₹1,499",
+    originalPrice: "₹2,999",
     rating: 4.6,
-    image: "https://images.unsplash.com/photo-1757847505222-cfe856c93be0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzbWFydHBob25lJTIwZ2FkZ2V0cyUyMHRlY2hub2xvZ3l8ZW58MXx8fHwxNzYwNzkzMzUxfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+    image: "https://images.unsplash.com/photo-1665860455418-017fa50d29bc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmaXRuZXNzJTIwdHJhY2tlciUyMHNtYXJ0d2F0Y2h8ZW58MXx8fHwxNzYyNzczMzY5fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+  },
+  {
+    name: "JBL Go 2 Speaker",
+    condition: "Excellent",
+    price: "₹1,999",
+    originalPrice: "₹3,499",
+    rating: 4.4,
+    image: "https://images.unsplash.com/photo-1674303324806-7018a739ed11?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwb3J0YWJsZSUyMGJsdWV0b290aCUyMHNwZWFrZXJ8ZW58MXx8fHwxNzYyNzczMzY5fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+  },
+  {
+    name: "Mi 10000mAh Power Bank",
+    condition: "Like New",
+    price: "₹799",
+    originalPrice: "₹1,499",
+    rating: 4.7,
+    image: "https://images.unsplash.com/photo-1760708825913-65a50b3dc39b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwb3dlciUyMGJhbmslMjBjaGFyZ2VyfGVufDF8fHx8MTc2Mjc1OTg1Nnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+  },
+  {
+    name: "Lenovo Tab M8",
+    condition: "Very Good",
+    price: "₹5,999",
+    originalPrice: "₹12,990",
+    rating: 4.2,
+    image: "https://images.unsplash.com/photo-1738737271801-d404a575d870?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxidWRnZXQlMjB0YWJsZXQlMjBkZXZpY2V8ZW58MXx8fHwxNzYyNzczMzcwfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
   }
 ];
 
